@@ -1,0 +1,12 @@
+r= range(5)
+for x in range(0,5):
+    for y in range(0,5):
+        if y<3:
+            pydle(x,y,"","brown")
+        else:
+            pydle(x,y,"","blue")
+for e in range(0,5,2):
+    pydle(e,3,"❄","white")
+for x in range(0,2):
+    pydle(x,0,"","white")
+    
