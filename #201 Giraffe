@@ -1,0 +1,17 @@
+w="yellow"
+g="green"
+s=["🟤","🟫"]
+r=range(5)
+for y in r:
+    pydle(0,y,s[y%2],w)
+for x in range(2):
+    pydle(x+1,3,s[x],w)
+for y in r:
+    pydle(4,y,"","brown")
+for i in range(-2,1):
+ for e in range(2,5):pydle(e,i,"",g)
+
+pydle(1,0,"<",w);
+pydle(3,1,"",g);
+pydle(2,4,s[0],w)
+pydle(0,0,"",w)
